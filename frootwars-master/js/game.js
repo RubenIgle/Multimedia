@@ -475,8 +475,46 @@ var levels = {
 				{type:"hero", name:"ciruela",x:80,y:405},//Nuevo heroe ciruela
 				{type:"hero", name:"banana",x:140,y:405},//Nuevo heroe banana
 			]
+		},
+                        //NUEVO NIVEL 4
+        		{ 
+			foreground:'foregroundnuevo',
+			background:'space', //nuevo fondo
+			entities:[
+				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
+				{type:"ground", name:"wood", x:185,y:390,width:30,height:80,isStatic:true},
+
+				{type:"block", name:"wood", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"wood", x:720,y:380,angle:90,width:100,height:25},
+				
+			
+				{type:"block", name:"wood", x:770,y:317.5,width:150,height:25},
+                
+                
+				{type:"block", name:"wood", x:820,y:217.5,angle:90,width:100,height:25},
+				{type:"block", name:"wood", x:720,y:217.5,angle:90,width:100,height:25},
+                
+                {type:"block", name:"wood", x:770,y:117.5,width:150,height:25},
+                
+                {type:"block", name:"wood", x:820,y:92.5,angle:90,width:100,height:25},
+				{type:"block", name:"wood", x:720,y:92.5,angle:90,width:100,height:25},
+                
+                {type:"block", name:"wood", x:770,y:55.5,width:150,height:25},
+				
+
+
+				{type:"villain", name:"burger",x:765,y:116,calories:590},
+				{type:"villain", name:"fries",x:765,y:316,calories:420},
+				{type:"villain", name:"tarta",x:765,y:400,calories:150}, //Nuevo villano
+
+				
+                {type:"hero", name:"kiwi",x:30,y:415},//Nuevo heroe kiwi
+				{type:"hero", name:"ciruela",x:80,y:405},//Nuevo heroe ciruela
+				{type:"hero", name:"banana",x:140,y:405},//Nuevo heroe banana
+			]
 		}
         
+
         
                         
          
