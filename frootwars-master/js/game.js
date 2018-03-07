@@ -473,7 +473,7 @@ var levels = {
 				
                 {type:"hero", name:"kiwi",x:30,y:415},//Nuevo heroe kiwi
 				{type:"hero", name:"ciruela",x:80,y:405},//Nuevo heroe ciruela
-				{type:"hero", name:"apple",x:140,y:405},
+				{type:"hero", name:"banana",x:140,y:405},//Nuevo heroe banana
 			]
 		}
         
@@ -608,7 +608,14 @@ var entities = {
 			friction:0.5,
 			restitution:0.4,
 		},
-    	"ciruela":{
+    	"ciruela":{ // Nuevo heroe
+			shape:"circle",
+			radius:25,
+			density:1.5,
+			friction:0.5,
+			restitution:0.4,
+		},
+        "banana":{ // Nuevo heroe
 			shape:"circle",
 			radius:25,
 			density:1.5,
