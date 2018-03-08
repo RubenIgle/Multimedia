@@ -467,7 +467,7 @@ var levels = {
 
 
 				{type:"villain", name:"burger",x:770,y:55,calories:590},
-				{type:"villain", name:"fries",x:870,y:405,calories:420},
+				{type:"villain", name:"kebab",x:670,y:405,calories:420}, //Nuevo villano
 				{type:"villain", name:"tarta",x:765,y:400,calories:150}, //Nuevo villano
 
 				
@@ -599,6 +599,15 @@ var entities = {
 			restitution:0.4,
 		},
 		"sodacan":{
+			shape:"rectangle",
+			fullHealth:80,
+			width:40,
+			height:60,
+			density:1,
+			friction:0.5,
+			restitution:0.7,
+		},
+        "kebab":{ //Nuevo villano
 			shape:"rectangle",
 			fullHealth:80,
 			width:40,
