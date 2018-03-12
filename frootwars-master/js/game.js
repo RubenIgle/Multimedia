@@ -466,7 +466,7 @@ var levels = {
 				
 
 
-				{type:"villain", name:"burger",x:770,y:55,calories:590},
+				{type:"villain", name:"muffin",x:770,y:55,calories:590},
 				{type:"villain", name:"kebab",x:670,y:405,calories:420}, //Nuevo villano
 				{type:"villain", name:"tarta",x:765,y:400,calories:150}, //Nuevo villano
 
@@ -503,8 +503,8 @@ var levels = {
 				
 
 
-				{type:"villain", name:"burger",x:765,y:116,calories:590},
-				{type:"villain", name:"fries",x:765,y:316,calories:420},
+				{type:"villain", name:"muffin",x:765,y:116,calories:590},
+				{type:"villain", name:"kebab",x:765,y:316,calories:420},
 				{type:"villain", name:"tarta",x:765,y:400,calories:150}, //Nuevo villano
 
 				
@@ -626,6 +626,15 @@ var entities = {
 			restitution:0.6,
 		},
         "tarta":{ //Nuevo Villano
+			shape:"rectangle",
+			fullHealth:50,
+			width:40,
+			height:50,
+			density:1,
+			friction:0.5,
+			restitution:0.6,
+		},
+        "muffin":{ //Nuevo Villano
 			shape:"rectangle",
 			fullHealth:50,
 			width:40,
