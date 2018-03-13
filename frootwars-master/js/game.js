@@ -607,15 +607,6 @@ var entities = {
 			friction:0.5,
 			restitution:0.7,
 		},
-        "kebab":{ //Nuevo villano
-			shape:"rectangle",
-			fullHealth:80,
-			width:40,
-			height:60,
-			density:1,
-			friction:0.5,
-			restitution:0.7,
-		},
 		"fries":{
 			shape:"rectangle",
 			fullHealth:50,
@@ -624,6 +615,15 @@ var entities = {
 			density:1,
 			friction:0.5,
 			restitution:0.6,
+		},
+         "kebab":{ //Nuevo villano
+			shape:"rectangle",
+			fullHealth:80,
+			width:40,
+			height:60,
+			density:1,
+			friction:0.5,
+			restitution:0.7,
 		},
         "tarta":{ //Nuevo Villano
 			shape:"rectangle",
